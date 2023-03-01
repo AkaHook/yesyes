@@ -776,23 +776,23 @@ function library:Introduction()
     
     xsx.Name = "xsx"
     xsx.Parent = background
-    xsx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    xsx.BackgroundColor3 = Color3.fromRGB(142, 122, 255)
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
-    xsx.Text = "Molosia Loading..."
+    xsx.Text = "   Molosia Loading..."
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
     
     text.Name = "text"
     text.Parent = background
-    text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    text.BackgroundColor3 = Color3.fromRGB(142, 122, 255)
     text.BackgroundTransparency = 1.000
     text.Position = UDim2.new(0.912751675, 0, 0, 0)
     text.Size = UDim2.new(0, 26, 0, 21)
     text.Font = Enum.Font.Code
-    text.Text = "2/1/2023"
+    text.Text = "2/1/2023/ User:Client"
     text.TextColor3 = Color3.fromRGB(124, 124, 124)
     text.TextSize = 10.000
     text.TextTransparency = 1
@@ -902,7 +902,7 @@ function library:Init(key)
     background.Name = "background"
     background.Parent = edge
     background.AnchorPoint = Vector2.new(0.5, 0.5)
-    background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    background.BackgroundColor3 = Color3.fromRGB(142, 122, 255)
     background.Position = UDim2.new(0.5, 0, 0.5, 0)
     background.Size = UDim2.new(0, 592, 0, 404)
     background.ClipsDescendants = true
@@ -918,7 +918,7 @@ function library:Init(key)
 
     headerLabel.Name = "headerLabel"
     headerLabel.Parent = background
-    headerLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    headerLabel.BackgroundColor3 = Color3.fromRGB(142, 122, 255)
     headerLabel.BackgroundTransparency = 1.000
     headerLabel.Size = UDim2.new(0, 592, 0, 38)
     headerLabel.Font = Enum.Font.Code
