@@ -251,7 +251,7 @@ function library:Watermark(text)
     background.Name = "background"
     background.Parent = edge
     background.AnchorPoint = Vector2.new(0.5, 0.5)
-    background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    background.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
     background.BackgroundTransparency = 1
     background.ClipsDescendants = true
     background.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -262,7 +262,7 @@ function library:Watermark(text)
 
     bar.Name = "bar"
     bar.Parent = barFolder
-    bar.BackgroundColor3 = Color3.fromRGB(159, 115, 255)
+    bar.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
     bar.BackgroundTransparency = 0
     bar.Size = UDim2.new(0, 0, 0, 1)
 
@@ -285,7 +285,7 @@ function library:Watermark(text)
 
     waterText.Name = "notifText"
     waterText.Parent = background
-    waterText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    waterText.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
     waterText.BackgroundTransparency = 1.000
     waterText.Position = UDim2.new(0, 0, -0.0416666679, 0)
     waterText.Size = UDim2.new(0, 0, 0, 24)
@@ -356,7 +356,7 @@ function library:Watermark(text)
         background.Name = "background"
         background.Parent = edge
         background.AnchorPoint = Vector2.new(0.5, 0.5)
-        background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        background.BackgroundColor3 = Color3.144, 244, 21
         background.BackgroundTransparency = 1
         background.ClipsDescendants = true
         background.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -390,7 +390,7 @@ function library:Watermark(text)
     
         waterText.Name = "notifText"
         waterText.Parent = background
-        waterText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        waterText.BackgroundColor3 = Color3.144, 244, 21
         waterText.BackgroundTransparency = 1.000
         waterText.Position = UDim2.new(0, 0, -0.0416666679, 0)
         waterText.Size = UDim2.new(0, 0, 0, 24)
@@ -554,7 +554,7 @@ function library:InitNotifications(text, duration, callback)
         background.Name = "background"
         background.Parent = edge
         background.AnchorPoint = Vector2.new(0.5, 0.5)
-        background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        background.BackgroundColor3 = Color3.144, 244, 21
         background.BackgroundTransparency = 1.000
         background.ClipsDescendants = true
         background.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -599,7 +599,7 @@ function library:InitNotifications(text, duration, callback)
     
         notifText.Name = "notifText"
         notifText.Parent = background
-        notifText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        notifText.BackgroundColor3 = Color3.144, 244, 21
         notifText.BackgroundTransparency = 1.000
         notifText.Size = UDim2.new(0, 230, 0, 26)
         notifText.Font = Enum.Font.Code
@@ -717,7 +717,7 @@ function library:Introduction()
     background.Name = "background"
     background.Parent = edge
     background.AnchorPoint = Vector2.new(0.5, 0.5)
-    background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    background.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
     background.BackgroundTransparency = 1
     background.ClipsDescendants = true
     background.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -753,7 +753,7 @@ function library:Introduction()
     xsxLogo.Name = "xsxLogo"
     xsxLogo.Parent = background
     xsxLogo.AnchorPoint = Vector2.new(0.5, 0.5)
-    xsxLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    xsxLogo.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
     xsxLogo.BackgroundTransparency = 1.000
     xsxLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     xsxLogo.Size = UDim2.new(0, 448, 0, 150)
@@ -765,7 +765,7 @@ function library:Introduction()
     hashLogo.Name = "hashLogo"
     hashLogo.Parent = background
     hashLogo.AnchorPoint = Vector2.new(0.5, 0.5)
-    hashLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    hashLogo.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
     hashLogo.BackgroundTransparency = 1.000
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
@@ -968,7 +968,7 @@ function library:Init(key)
     tabButtons.Name = "tabButtons"
     tabButtons.Parent = tabButtonsEdge
     tabButtons.AnchorPoint = Vector2.new(0.5, 0.5)
-    tabButtons.BackgroundColor3 = Color3.fromRGB(235, 235, 235)
+    tabButtons.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
     tabButtons.ClipsDescendants = true
     tabButtons.Position = UDim2.new(0.5, 0, 0.5, 0)
     tabButtons.Size = UDim2.new(0, 150, 0, 358)
@@ -1036,7 +1036,7 @@ function library:Init(key)
 
         tabButton.Name = "tabButton"
         tabButton.Parent = tabButtons
-        tabButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        tabButton.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
         tabButton.BackgroundTransparency = 1.000
         tabButton.ClipsDescendants = true
         tabButton.Position = UDim2.new(-0.0281690136, 0, 0, 0)
@@ -1051,7 +1051,7 @@ function library:Init(key)
         page.Name = "page"
         page.Parent = container
         page.Active = true
-        page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        page.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
         page.BackgroundTransparency = 1.000
         page.BorderSizePixel = 0
         page.Size = UDim2.new(0, 412, 0, 358)
@@ -1119,7 +1119,7 @@ function library:Init(key)
 
             label.Name = "label"
             label.Parent = page
-            label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            label.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             label.BackgroundTransparency = 1.000
             label.Position = UDim2.new(0.00499999989, 0, 0, 0)
             label.Size = UDim2.new(0, 396, 0, 24)
@@ -1200,7 +1200,7 @@ function library:Init(key)
 
             buttonFrame.Name = "buttonFrame"
             buttonFrame.Parent = page
-            buttonFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            buttonFrame.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             buttonFrame.BackgroundTransparency = 1.000
             buttonFrame.Size = UDim2.new(0, 396, 0, 24)
 
@@ -1229,7 +1229,7 @@ function library:Init(key)
             buttonBackground.Name = "buttonBackground"
             buttonBackground.Parent = button
             buttonBackground.AnchorPoint = Vector2.new(0.5, 0.5)
-            buttonBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            buttonBackground.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             buttonBackground.Position = UDim2.new(0.5, 0, 0.5, 0)
             buttonBackground.Size = UDim2.new(0, 394, 0, 22)
 
@@ -1245,7 +1245,7 @@ function library:Init(key)
             buttonLabel.Name = "buttonLabel"
             buttonLabel.Parent = buttonBackground
             buttonLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-            buttonLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            buttonLabel.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             buttonLabel.BackgroundTransparency = 1.000
             buttonLabel.ClipsDescendants = true
             buttonLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1333,7 +1333,7 @@ function library:Init(key)
                     buttonBackground.Name = "buttonBackground"
                     buttonBackground.Parent = button
                     buttonBackground.AnchorPoint = Vector2.new(0.5, 0.5)
-                    buttonBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                    buttonBackground.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
                     buttonBackground.Position = UDim2.new(0.5, 0, 0.5, 0)
                     buttonBackground.Size = UDim2.new(0, (NewSizeX - 2) - Amnt, 0, 22)
         
@@ -1349,7 +1349,7 @@ function library:Init(key)
                     buttonLabel.Name = "buttonLabel"
                     buttonLabel.Parent = buttonBackground
                     buttonLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-                    buttonLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                    buttonLabel.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
                     buttonLabel.BackgroundTransparency = 1.000
                     buttonLabel.ClipsDescendants = true
                     buttonLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1478,7 +1478,7 @@ function library:Init(key)
 
             sectionFrame.Name = "sectionFrame"
             sectionFrame.Parent = page
-            sectionFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sectionFrame.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             sectionFrame.BackgroundTransparency = 1.000
             sectionFrame.ClipsDescendants = true
             sectionFrame.Size = UDim2.new(0, 396, 0, 18)
@@ -1493,7 +1493,7 @@ function library:Init(key)
 
             sectionLabel.Name = "sectionLabel"
             sectionLabel.Parent = sectionFrame
-            sectionLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sectionLabel.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             sectionLabel.BackgroundTransparency = 1.000
             sectionLabel.ClipsDescendants = true
             sectionLabel.Position = UDim2.new(0.0252525248, 0, 0.020833334, 0)
@@ -1574,7 +1574,7 @@ function library:Init(key)
 
             toggleButton.Name = "toggleButton"
             toggleButton.Parent = page
-            toggleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            toggleButton.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             toggleButton.BackgroundTransparency = 1.000
             toggleButton.ClipsDescendants = false
             toggleButton.Size = UDim2.new(0, 396, 0, 22)
@@ -1602,7 +1602,7 @@ function library:Init(key)
             toggle.Name = "toggle"
             toggle.Parent = toggleEdge
             toggle.AnchorPoint = Vector2.new(0.5, 0.5)
-            toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            toggle.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             toggle.Position = UDim2.new(0.5, 0, 0.5, 0)
             toggle.Size = UDim2.new(0, 16, 0, 16)
 
@@ -1618,7 +1618,7 @@ function library:Init(key)
             toggleDesign.Name = "toggleDesign"
             toggleDesign.Parent = toggle
             toggleDesign.AnchorPoint = Vector2.new(0.5, 0.5)
-            toggleDesign.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            toggleDesign.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             toggleDesign.BackgroundTransparency = 1.000
             toggleDesign.Position = UDim2.new(0.5, 0, 0.5, 0)
 
@@ -1633,7 +1633,7 @@ function library:Init(key)
 
             toggleLabel.Name = "toggleLabel"
             toggleLabel.Parent = toggleButton
-            toggleLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            toggleLabel.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             toggleLabel.BackgroundTransparency = 1.000
             toggleLabel.Position = UDim2.new(0.0454545468, 0, 0, 0)
             toggleLabel.Size = UDim2.new(0, 377, 0, 22)
@@ -1770,7 +1770,7 @@ function library:Init(key)
                 keybindBackground.Name = "keybindBackground"
                 keybindBackground.Parent = keybind
                 keybindBackground.AnchorPoint = Vector2.new(0.5, 0.5)
-                keybindBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                keybindBackground.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
                 keybindBackground.Position = UDim2.new(0.5, 0, 0.5, 0)
                 keybindBackground.Size = UDim2.new(0, 85, 0, 20)
     
@@ -1786,7 +1786,7 @@ function library:Init(key)
                 keybindButtonLabel.Name = "keybindButtonLabel"
                 keybindButtonLabel.Parent = keybindBackground
                 keybindButtonLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-                keybindButtonLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                keybindButtonLabel.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
                 keybindButtonLabel.BackgroundTransparency = 1.000
                 keybindButtonLabel.ClipsDescendants = true
                 keybindButtonLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -1923,14 +1923,14 @@ function library:Init(key)
 
             keybindFrame.Name = "keybindFrame"
             keybindFrame.Parent = page
-            keybindFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            keybindFrame.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             keybindFrame.BackgroundTransparency = 1.000
             keybindFrame.ClipsDescendants = true
             keybindFrame.Size = UDim2.new(0, 396, 0, 24)
 
             keybindButton.Name = "keybindButton"
             keybindButton.Parent = keybindFrame
-            keybindButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            keybindButton.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             keybindButton.BackgroundTransparency = 1.000
             keybindButton.Size = UDim2.new(0, 396, 0, 24)
             keybindButton.AutoButtonColor = false
@@ -1948,14 +1948,11 @@ function library:Init(key)
 
             keybindLabel.Name = "keybindLabel"
             keybindLabel.Parent = keybindButton
-            keybindLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            keybindLabel.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             keybindLabel.BackgroundTransparency = 1.000
             keybindLabel.Size = UDim2.new(0, 396, 0, 24)
             keybindLabel.Font = Enum.Font.Code
-            keybindLabel.Text = text
-            keybindLabel.TextColor3 = Color3.fromRGB(190, 190, 190)
-            keybindLabel.TextSize = 14.000
-            keybindLabel.TextWrapped = true
+            keybindLabel.Text = text144, 244, 21
             keybindLabel.TextXAlignment = Enum.TextXAlignment.Left
             keybindLabel.RichText = true
 
@@ -1996,7 +1993,7 @@ function library:Init(key)
             keybindBackground.Name = "keybindBackground"
             keybindBackground.Parent = keybind
             keybindBackground.AnchorPoint = Vector2.new(0.5, 0.5)
-            keybindBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            keybindBackground.BackgroundColor3 = Color3.fromRGB(144, 244, 21)
             keybindBackground.Position = UDim2.new(0.5, 0, 0.5, 0)
             keybindBackground.Size = UDim2.new(0, 85, 0, 20)
 
@@ -2012,7 +2009,7 @@ function library:Init(key)
             keybindButtonLabel.Name = "keybindButtonLabel"
             keybindButtonLabel.Parent = keybindBackground
             keybindButtonLabel.AnchorPoint = Vector2.new(0.5, 0.5)
-            keybindButtonLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            keybindButtonLabel.BackgroundColor3 = Color3.144, 244, 21
             keybindButtonLabel.BackgroundTransparency = 1.000
             keybindButtonLabel.ClipsDescendants = true
             keybindButtonLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -2159,7 +2156,7 @@ function library:Init(key)
     
                 textboxFrame.Name = "textboxFrame"
                 textboxFrame.Parent = page
-                textboxFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textboxFrame.BackgroundColor3 = Color3.144, 244, 21
                 textboxFrame.BackgroundTransparency = 1.000
                 textboxFrame.ClipsDescendants = true
                 textboxFrame.Size = UDim2.new(0, 396, 0, 24)
@@ -2196,7 +2193,7 @@ function library:Init(key)
     
                 textboxTwo.Name = "textboxTwo"
                 textboxTwo.Parent = textbox
-                textboxTwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textboxTwo.BackgroundColor3 = Color3.144, 244, 21
                 textboxTwo.Size = UDim2.new(0, 131, 0, 20)
     
                 textboxTwoStraint.Name = "textboxTwoStraint"
@@ -2214,7 +2211,7 @@ function library:Init(key)
     
                 textBoxValues.Name = "textBoxValues"
                 textBoxValues.Parent = textboxTwo
-                textBoxValues.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textBoxValues.BackgroundColor3 = Color3.144, 244, 21
                 textBoxValues.BackgroundTransparency = 1.000
                 textBoxValues.Position = UDim2.new(0.664141417, 0, 0.0416666679, 0)
                 textBoxValues.Size = UDim2.new(0, 131, 0, 20)
@@ -2247,7 +2244,7 @@ function library:Init(key)
     
                 textboxLabel.Name = "textboxLabel"
                 textboxLabel.Parent = textboxFrame
-                textboxLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textboxLabel.BackgroundColor3 = Color3.144, 244, 21
                 textboxLabel.BackgroundTransparency = 1.000
                 textboxLabel.Size = UDim2.new(0, 396, 0, 24)
                 textboxLabel.Font = Enum.Font.Code
@@ -2442,7 +2439,7 @@ function library:Init(key)
 
                 textboxFrame.Name = "textboxFrame"
                 textboxFrame.Parent = page
-                textboxFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textboxFrame.BackgroundColor3 = Color3.144, 244, 21
                 textboxFrame.BackgroundTransparency = 1.000
                 textboxFrame.ClipsDescendants = true
                 textboxFrame.Size = UDim2.new(0, 396, 0, 46)
@@ -2480,7 +2477,7 @@ function library:Init(key)
 
                 textboxTwo.Name = "textboxTwo"
                 textboxTwo.Parent = textbox
-                textboxTwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textboxTwo.BackgroundColor3 = Color3.144, 244, 21
                 textboxTwo.Size = UDim2.new(0, 394, 0, 20)
 
                 textboxTwoStraint.Name = "textboxTwoStraint"
@@ -2499,7 +2496,7 @@ function library:Init(key)
 
                 textBoxValues.Name = "textBoxValues"
                 textBoxValues.Parent = textboxTwo
-                textBoxValues.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textBoxValues.BackgroundColor3 = Color3.144, 244, 21
                 textBoxValues.BackgroundTransparency = 1.000
                 textBoxValues.ClipsDescendants = true
                 textBoxValues.Position = UDim2.new(-0.587786257, 0, 0, 0)
@@ -2532,7 +2529,7 @@ function library:Init(key)
 
                 textboxLabel.Name = "textboxLabel"
                 textboxLabel.Parent = textboxFrame
-                textboxLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textboxLabel.BackgroundColor3 = Color3.144, 244, 21
                 textboxLabel.BackgroundTransparency = 1.000
                 textboxLabel.Size = UDim2.new(0, 396, 0, 24)
                 textboxLabel.Font = Enum.Font.Code
@@ -2669,7 +2666,7 @@ function library:Init(key)
 
                 textboxFrame.Name = "textboxFrame"
                 textboxFrame.Parent = page
-                textboxFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textboxFrame.BackgroundColor3 = Color3.144, 244, 21
                 textboxFrame.BackgroundTransparency = 1.000
                 textboxFrame.ClipsDescendants = true
                 textboxFrame.Position = UDim2.new(0.00499999989, 0, 0.268786132, 0)
@@ -2709,7 +2706,7 @@ function library:Init(key)
 
                 textboxTwo.Name = "textboxTwo"
                 textboxTwo.Parent = textbox
-                textboxTwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textboxTwo.BackgroundColor3 = Color3.144, 244, 21
                 textboxTwo.Size = UDim2.new(0, 394, 0, 114)
 
                 textboxTwoStraint.Name = "textboxTwoStraint"
@@ -2728,7 +2725,7 @@ function library:Init(key)
 
                 textBoxValues.Name = "textBoxValues"
                 textBoxValues.Parent = textboxTwo
-                textBoxValues.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textBoxValues.BackgroundColor3 = Color3.144, 244, 21
                 textBoxValues.BackgroundTransparency = 1.000
                 textBoxValues.ClipsDescendants = true
                 textBoxValues.Size = UDim2.new(0, 394, 0, 114)
@@ -2762,7 +2759,7 @@ function library:Init(key)
 
                 textboxLabel.Name = "textboxLabel"
                 textboxLabel.Parent = textboxFrame
-                textboxLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                textboxLabel.BackgroundColor3 = Color3.144, 244, 21
                 textboxLabel.BackgroundTransparency = 1.000
                 textboxLabel.Size = UDim2.new(0, 396, 0, 24)
                 textboxLabel.Font = Enum.Font.Code
@@ -2909,7 +2906,7 @@ function library:Init(key)
             
             selectorFrame.Name = "selectorFrame"
             selectorFrame.Parent = page
-            selectorFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            selectorFrame.BackgroundColor3 = Color3.144, 244, 21
             selectorFrame.BackgroundTransparency = 1.000
             selectorFrame.ClipsDescendants = true
             selectorFrame.Position = UDim2.new(0.00499999989, 0, 0.0895953774, 0)
@@ -2918,7 +2915,7 @@ function library:Init(key)
             
             selectorLabel.Name = "selectorLabel"
             selectorLabel.Parent = selectorFrame
-            selectorLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            selectorLabel.BackgroundColor3 = Color3.144, 244, 21
             selectorLabel.BackgroundTransparency = 1.000
             selectorLabel.Size = UDim2.new(0, 396, 0, 24)
             selectorLabel.Font = Enum.Font.Code
@@ -2968,14 +2965,14 @@ function library:Init(key)
             
             selectorTwo.Name = "selectorTwo"
             selectorTwo.Parent = selector
-            selectorTwo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            selectorTwo.BackgroundColor3 = Color3.144, 244, 21
             selectorTwo.ClipsDescendants = true
             selectorTwo.Position = UDim2.new(0.00252525252, 0, 0, 0)
             selectorTwo.Size = UDim2.new(0, 394, 0, 20)
             
             selectorText.Name = "selectorText"
             selectorText.Parent = selectorTwo
-            selectorText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            selectorText.BackgroundColor3 = Color3.144, 244, 21
             selectorText.BackgroundTransparency = 1.000
             selectorText.Size = UDim2.new(0, 394, 0, 20)
             selectorText.Font = Enum.Font.Code
@@ -3018,7 +3015,7 @@ function library:Init(key)
             
             selectorContainer.Name = "selectorContainer"
             selectorContainer.Parent = selectorTwo
-            selectorContainer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            selectorContainer.BackgroundColor3 = Color3.144, 244, 21
             selectorContainer.BackgroundTransparency = 1.000
             selectorContainer.Size = UDim2.new(0, 394, 0, 20)
         
@@ -3045,7 +3042,7 @@ function library:Init(key)
 
                 optionButton.Name = "optionButton"
                 optionButton.Parent = selectorContainer
-                optionButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                optionButton.BackgroundColor3 = Color3.144, 244, 21
                 optionButton.BackgroundTransparency = 1.000
                 optionButton.Size = UDim2.new(0, 394, 0, 20)
                 optionButton.AutoButtonColor = false
@@ -3091,7 +3088,7 @@ function library:Init(key)
 
                 optionButton.Name = "optionButton"
                 optionButton.Parent = selectorContainer
-                optionButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                optionButton.BackgroundColor3 = Color3.144, 244, 21
                 optionButton.BackgroundTransparency = 1.000
                 optionButton.Size = UDim2.new(0, 394, 0, 20)
                 optionButton.AutoButtonColor = false
@@ -3218,7 +3215,7 @@ function library:Init(key)
 
             sliderFrame.Name = "sliderFrame"
             sliderFrame.Parent = page
-            sliderFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sliderFrame.BackgroundColor3 = Color3.144, 244, 21
             sliderFrame.BackgroundTransparency = 1.000
             sliderFrame.ClipsDescendants = true
             sliderFrame.Position = UDim2.new(0.00499999989, 0, 0.667630076, 0)
@@ -3252,7 +3249,7 @@ function library:Init(key)
 
             sliderBackground.Name = "sliderBackground"
             sliderBackground.Parent = sliderButton
-            sliderBackground.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sliderBackground.BackgroundColor3 = Color3.144, 244, 21
             sliderBackground.Size = UDim2.new(0, 394, 0, 14)
             sliderBackground.ClipsDescendants = true
 
@@ -3272,7 +3269,7 @@ function library:Init(key)
 
             sliderIndicator.Name = "sliderIndicator"
             sliderIndicator.Parent = sliderBackground
-            sliderIndicator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sliderIndicator.BackgroundColor3 = Color3.144, 244, 21
             sliderIndicator.BorderSizePixel = 0
             sliderIndicator.Position = UDim2.new(0, 0, -0.100000001, 0)
             sliderIndicator.Size = UDim2.new(0, 0, 0, 12)
@@ -3305,7 +3302,7 @@ function library:Init(key)
 
             sliderLabel.Name = "sliderLabel"
             sliderLabel.Parent = sliderFrame
-            sliderLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sliderLabel.BackgroundColor3 = Color3.144, 244, 21
             sliderLabel.BackgroundTransparency = 1.000
             sliderLabel.Size = UDim2.new(0, 396, 0, 24)
             sliderLabel.Font = Enum.Font.Code
@@ -3325,7 +3322,7 @@ function library:Init(key)
 
             sliderValue.Name = "sliderValue"
             sliderValue.Parent = sliderLabel
-            sliderValue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sliderValue.BackgroundColor3 = Color3.144, 244, 21
             sliderValue.BackgroundTransparency = 1.000
             sliderValue.Position = UDim2.new(0.577319562, 0, 0, 0)
             sliderValue.Size = UDim2.new(0, 169, 0, 15)
@@ -3467,7 +3464,7 @@ function library:Init(key)
 
             sectionFrame.Name = "sectionFrame"
             sectionFrame.Parent = page
-            sectionFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            sectionFrame.BackgroundColor3 = Color3.144, 244, 21
             sectionFrame.BackgroundTransparency = 1.000
             sectionFrame.ClipsDescendants = true
             sectionFrame.Position = UDim2.new(0.00499999989, 0, 0.361271679, 0)
